@@ -21,7 +21,7 @@ function verifySignature(req, res, next) {
 
     // Comparar la firma enviada con la calculada
     if (signature !== digest) {
-        return res.status(400).send('Firma no válida');
+        return res.status(400).send('Firma no válidaa');
     }
     next();
 }
